@@ -40,7 +40,8 @@ Returns:
                 {{ column }} as value
 
             from {{ target_relation }}
-            group by 1
+--            group by 1
+            group by {{ column }}
             order by count(*) desc
 
             {% if max_records is not none %}

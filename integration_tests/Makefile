@@ -23,5 +23,11 @@ test-bigquery:
 	dbt run --target bigquery --full-refresh
 	dbt test --target bigquery
 
-test-all: test-postgres test-redshift test-snowflake test-bigquery
+test-sqlserver:
+	dbt compile --target sqlserver
+	dbt seed --target sqlserver --full-refresh
+	dbt run --target sqlserver --full-refresh
+	dbt test --target sqlserver
+
+test-all: test-postgres test-redshift test-snowflake test-bigquery test-sqlserver
 	echo "Completed successfully"

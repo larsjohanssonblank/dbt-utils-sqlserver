@@ -5,16 +5,33 @@ with data as (
 
 )
 
-select
-    cast({{dbt_utils.date_trunc('day', 'updated_at') }} as date) as actual,
-    day as expected
+{% if target.type == 'sqlserver' %}
+	select
+	    {{dbt_utils.date_trunc('day', 'updated_at') }} as actual,
+	    day(day) as expected
 
-from data
+	from data
 
-union all
+	union all
 
-select
-    cast({{ dbt_utils.date_trunc('month', 'updated_at') }} as date) as actual,
-    month as expected
+	select
+	    {{ dbt_utils.date_trunc('month', 'updated_at') }} as actual,
+	    month(month) as expected
 
-from data
+	from data
+
+{% else %}
+	select
+	    cast({{dbt_utils.date_trunc('day', 'updated_at') }} as date) as actual,
+	    day as expected
+
+	from data
+
+	union all
+
+	select
+	    cast({{ dbt_utils.date_trunc('month', 'updated_at') }} as date) as actual,
+	    month as expected
+
+	from data
+{% endif %}

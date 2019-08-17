@@ -32,3 +32,19 @@ testing is required to validate that it will work on other dateparts.
     {%- endif -%}
 
 {%- endmacro %}
+
+
+{% macro sqlserver__last_day(date, datepart) -%}
+
+    {%- if datepart == 'quarter' -%}
+    {{ exceptions.raise_compiler_error(
+        "dbt_utils.last_day is not supported for datepart 'quarter' on this adapter") }}
+    {%- elif datepart == 'month' -%}
+        EOMONTH ( {{ date }})
+    {%- elif datepart == 'year' -%}
+        cast(cast(year({{ date }}) as varchar(4))  + '-12-31' as date) 
+    {%- else -%}
+    {{dbt_utils.default_last_day(date, datepart)}}
+    {%- endif -%}
+
+{%- endmacro %}

@@ -4,6 +4,11 @@
 select
     {{ dbt_utils.date_trunc('day', dbt_utils.current_timestamp()) }} as today
 
+{% elif target.type == 'sqlserver' %}
+
+select
+	{{  dbt_utils.current_timestamp() }} as today
+
 {% else %}
 
 select

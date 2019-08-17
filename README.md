@@ -32,14 +32,6 @@ Usage:
 ```
 
 
-#### split_part ([source](macros/cross_db_utils/split_part.sql))
-This macro splits a string of text using the supplied delimiter and returns the supplied part number (1-indexed).
-
-Usage:
-```
-{{ dbt_utils.split_part(string_text='1,2,3', delimiter_text=',', part_number=1) }}
-```
-
 #### date_trunc ([source](macros/cross_db_utils/date_trunc.sql))
 Truncates a date or timestamp to the specified datepart. Note: The `datepart` argument is database-specific.
 
@@ -52,7 +44,7 @@ Usage:
 Gets the last day for a given date and datepart. Notes:
 
 - The `datepart` argument is database-specific.
-- This macro currently only supports dateparts of `month` and `quarter`.
+- This macro currently only supports dateparts of `month` and `year`.
 
 Usage:
 ```
@@ -60,19 +52,7 @@ Usage:
 ```
 ---
 ### Date/Time
-#### date_spine ([source](macros/datetime/date_spine.sql))
-This macro returns the sql required to build a date spine.
 
-Usage:
-```
-{{ dbt_utils.date_spine(
-    datepart="minute",
-    start_date="to_date('01/01/2016', 'mm/dd/yyyy')",
-    end_date="dateadd(week, 1, current_date)"
-   )
-}}
-```
----
 ### Geo
 #### haversine_distance ([source](macros/geo/haversine_distance.sql))
 This macro calculates the [haversine distance](http://daynebatten.com/2015/09/latitude-longitude-distance-sql/) between a pair of x/y coordinates.
@@ -243,12 +223,6 @@ Usage:
 {{ set tables = dbt_utils.get_tables_by_prefix('schema', 'prefix', '%_%')}}
 ```
 
-#### group_by ([source](macros/sql/groupby.sql))
-This macro build a group by statement for fields 1...N
-
-Usage:
-```
-{{ dbt_utils.group_by(n=3) }} --> group by 1,2,3
 ```
 
 #### star ([source](macros/sql/star.sql))
@@ -274,12 +248,7 @@ Usage:
 ) }}
 ```
 
-#### generate_series ([source](macros/sql/generate_series.sql))
-This macro implements a cross-database mechanism to generate an arbitrarily long list of numbers. Specify the maximum number you'd like in your list and it will create a 1-indexed SQL result set.
 
-Usage:
-```
-{{ dbt_utils.generate_series(upper_bound=1000) }}
 ```
 
 #### surrogate_key ([source](macros/sql/surrogate_key.sql))
@@ -383,29 +352,7 @@ Arguments:
     - value_name: column name in the resulting table for value
 
 ---
-### Web
-#### get_url_parameter ([source](macros/web/get_url_parameter.sql))
-This macro extracts a url parameter from a column containing a url.
 
-Usage:
-```
-{{ dbt_utils.get_url_parameter(field='page_url', url_parameter='utm_source') }}
-```
-
-#### get_url_host ([source](macros/web/get_url_host.sql))
-This macro extracts a hostname from a column containing a url.
-
-Usage:
-```
-{{ dbt_utils.get_url_host(field='page_url') }}
-```
-
-#### get_url_path ([source](macros/web/get_url_path.sql))
-This macro extracts a page path from a column containing a url.
-
-Usage:
-```
-{{ dbt_utils.get_url_host(field='page_url') }}
 ```
 
 ---

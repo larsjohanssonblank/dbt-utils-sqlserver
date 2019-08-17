@@ -3,12 +3,12 @@
 
 {% set column_name = kwargs.get('column_name', kwargs.get('arg')) %}
 
-select count(*)
+select count(*) as errors
 
 from (
 
     select
-          count(distinct {{ column_name }})
+          count(distinct {{ column_name }})  as ditinct_counts
 
     from {{ model }}
 
