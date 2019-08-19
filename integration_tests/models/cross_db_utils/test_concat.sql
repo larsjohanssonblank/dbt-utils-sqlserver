@@ -6,7 +6,7 @@ with data as (
 )
 
 select
-    {{ dbt_utils.concat(['input_1', 'input_2']) }} as actual,
+    {{ dbt_utils_sqlserver.concat(['input_1', 'input_2']) }} as actual,
     output as expected
 
 from data

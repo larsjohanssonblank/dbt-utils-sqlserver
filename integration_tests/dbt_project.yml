@@ -16,7 +16,7 @@ clean-targets:         # directories to be removed by `dbt clean`
     - "dbt_modules"
     
 seeds:
-    dbt_utils_integration_tests:
+    dbt_utils_sqlserver_integration_tests:
         enabled: true
         
         cross_db:

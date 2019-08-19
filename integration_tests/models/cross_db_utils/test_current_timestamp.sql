@@ -1,6 +1,6 @@
 
 -- how can we test this better?
 select
-    {{ dbt_utils.current_timestamp() }} as actual,
-    {{ dbt_utils.current_timestamp() }} as expected
+    {{ dbt_utils_sqlserver.current_timestamp() }} as actual,
+    {{ dbt_utils_sqlserver.current_timestamp() }} as expected
 

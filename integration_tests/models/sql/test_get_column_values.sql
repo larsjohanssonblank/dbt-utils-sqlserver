@@ -1,5 +1,5 @@
 
-{% set columns = dbt_utils.get_column_values(ref('data_get_column_values'), 'field', default = []) %}
+{% set columns = dbt_utils_sqlserver.get_column_values(ref('data_get_column_values'), 'field', default = []) %}
 
 
 {% if target.type == 'snowflake' %}
@@ -19,7 +19,7 @@ from {{ ref('data_get_column_values') }}
 select
     {% for column in columns -%}
 
-        {{dbt_utils.safe_cast("sum(case when field = '" ~ column ~ "' then 1 else 0 end)", dbt_utils.type_string()) }} as count_{{ column }}
+        {{dbt_utils_sqlserver.safe_cast("sum(case when field = '" ~ column ~ "' then 1 else 0 end)", dbt_utils_sqlserver.type_string()) }} as count_{{ column }}
         {%- if not loop.last %},{% endif -%}
 
     {%- endfor %}

@@ -1,4 +1,4 @@
-{% if dbt_utils.pretty_log_format() is string %}
+{% if dbt_utils_sqlserver.pretty_log_format() is string %}
     {# Return 0 rows for the test to pass #}
     select top 0 0 as errors
 {% else %}

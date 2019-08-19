@@ -11,7 +11,7 @@
 
 select
     size,
-    {{ dbt_utils.pivot('color', column_values, cmp=cmp) }}
+    {{ dbt_utils_sqlserver.pivot('color', column_values, cmp=cmp) }}
 
 from {{ ref('data_pivot') }}
 group by size

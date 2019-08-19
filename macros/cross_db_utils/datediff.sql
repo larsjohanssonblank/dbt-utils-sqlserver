@@ -1,5 +1,5 @@
 {% macro datediff(first_date, second_date, datepart) %}
-  {{ adapter_macro('dbt_utils.datediff', first_date, second_date, datepart) }}
+  {{ adapter_macro('dbt_utils_sqlserver.datediff', first_date, second_date, datepart) }}
 {% endmacro %}
 
 

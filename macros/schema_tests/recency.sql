@@ -8,6 +8,6 @@ select
     end as error_result
 from {{model}}
 where {{column_name}} >=
-    {{dbt_utils.dateadd(datepart, interval * -1, dbt_utils.current_timestamp())}}
+    {{dbt_utils_sqlserver.dateadd(datepart, interval * -1, dbt_utils_sqlserver.current_timestamp())}}
 
 {% endmacro %}

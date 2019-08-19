@@ -1,6 +1,6 @@
 
 {% macro identifier(value) %}
-  {{ adapter_macro('dbt_utils.identifier', value) }}
+  {{ adapter_macro('dbt_utils_sqlserver.identifier', value) }}
 {% endmacro %}
 
 {% macro default__identifier(value) -%}

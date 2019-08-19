@@ -23,7 +23,7 @@ Arguments:
 
   {%- set _ = table_columns.update({table: []}) %}
 
-  {%- do dbt_utils._is_relation(table, 'unpivot') -%}
+  {%- do dbt_utils_sqlserver._is_relation(table, 'unpivot') -%}
   {%- set cols = adapter.get_columns_in_relation(table) %}
 
   {%- for col in cols -%}
@@ -39,7 +39,7 @@ Arguments:
         {{ exclude_col }},
       {%- endfor %}
 
-      cast('{{ col.column }}' as {{ dbt_utils.type_string() }}) as {{ field_name }},
+      cast('{{ col.column }}' as {{ dbt_utils_sqlserver.type_string() }}) as {{ field_name }},
       cast({{ col.column }} as {{ cast_to }}) as {{ value_name }}
 
     from {{ table }}

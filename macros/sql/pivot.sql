@@ -14,7 +14,7 @@ Example:
 
     select
       size,
-      {{ dbt_utils.pivot('color', dbt_utils.get_column_values('public.test',
+      {{ dbt_utils_sqlserver.pivot('color', dbt_utils_sqlserver.get_column_values('public.test',
                                                               'color')) }}
     from public.test
     group by size

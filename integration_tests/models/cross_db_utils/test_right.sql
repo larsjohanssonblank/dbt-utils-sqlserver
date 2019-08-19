@@ -6,7 +6,7 @@ with data as (
 
 select
 
-    {{ dbt_utils.right('string_text', 'length_expression') }} as actual,
+    {{ dbt_utils_sqlserver.right('string_text', 'length_expression') }} as actual,
     coalesce(output, '') as expected
 
 from data

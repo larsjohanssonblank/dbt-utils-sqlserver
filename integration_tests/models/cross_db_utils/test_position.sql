@@ -6,7 +6,7 @@ with data as (
 
 select
 
-    {{ dbt_utils.position('substring_text', 'string_text') }} as actual,
+    {{ dbt_utils_sqlserver.position('substring_text', 'string_text') }} as actual,
     result as expected
 
 from data

@@ -6,7 +6,7 @@ with data as (
 )
 
 select
-    {{ dbt_utils.safe_cast('field', dbt_utils.type_string()) }} as actual,
+    {{ dbt_utils_sqlserver.safe_cast('field', dbt_utils_sqlserver.type_string()) }} as actual,
     output as expected
 
 from data

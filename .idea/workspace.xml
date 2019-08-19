@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66fbd718-e8cb-495c-9494-d44e9bf72769" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dbt_project.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbt_project.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/dbt_project.yml" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/dbt_project.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_concat.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_concat.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_current_timestamp.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_current_timestamp.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_current_timestamp_in_utc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_current_timestamp_in_utc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_date_trunc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_date_trunc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_dateadd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_dateadd.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_datediff.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_datediff.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_hash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_hash.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_last_day.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_last_day.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_length.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_length.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_position.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_position.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_replace.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_replace.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_right.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_right.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_safe_cast.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/cross_db_utils/test_safe_cast.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/materializations/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/materializations/schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/schema_tests/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/schema_tests/schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/schema_tests/test_recency.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/schema_tests/test_recency.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_get_column_values.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_get_column_values.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_get_tables_by_prefix_and_union.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_get_tables_by_prefix_and_union.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_nullcheck_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_nullcheck_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_pivot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_pivot.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_star.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_star.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_surrogate_key.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_surrogate_key.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_union_base.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_union_base.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_unpivot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_unpivot.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_unpivot_original_api.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/dbt_modules/dbt_utils_sqlserver/integration_tests/models/sql/test_unpivot_original_api.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_concat.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_concat.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_current_timestamp.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_current_timestamp.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_current_timestamp_in_utc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_current_timestamp_in_utc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_date_trunc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_date_trunc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_dateadd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_dateadd.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_datediff.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_datediff.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_hash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_hash.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_last_day.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_last_day.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_length.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_length.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_position.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_position.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_replace.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_replace.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_right.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_right.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_safe_cast.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/cross_db_utils/test_safe_cast.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/materializations/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/materializations/schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/schema_tests/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/schema_tests/schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/schema_tests/test_recency.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/schema_tests/test_recency.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/sql/schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/sql/schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/sql/test_get_column_values.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/sql/test_get_column_values.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/sql/test_get_tables_by_prefix_and_union.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/sql/test_get_tables_by_prefix_and_union.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/sql/test_nullcheck_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/sql/test_nullcheck_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/sql/test_pivot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/sql/test_pivot.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/sql/test_star.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/sql/test_star.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/sql/test_surrogate_key.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/sql/test_surrogate_key.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/sql/test_union_base.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/sql/test_union_base.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/sql/test_unpivot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/sql/test_unpivot.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/models/sql/test_unpivot_original_api.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/models/sql/test_unpivot_original_api.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/tests/logger/assert_pretty_output_msg_is_string.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/tests/logger/assert_pretty_output_msg_is_string.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration_tests/tests/logger/assert_pretty_time_is_string.sql" beforeDir="false" afterPath="$PROJECT_DIR$/integration_tests/tests/logger/assert_pretty_time_is_string.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/concat.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/concat.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/current_timestamp.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/current_timestamp.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/datatypes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/datatypes.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/date_trunc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/date_trunc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/dateadd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/dateadd.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/datediff.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/datediff.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/except.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/except.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/hash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/hash.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/identifer.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/identifer.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/intersect.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/intersect.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/last_day.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/last_day.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/length.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/length.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/literal.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/literal.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/position.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/position.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/replace.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/replace.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/right.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/right.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/cross_db_utils/safe_cast.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/cross_db_utils/safe_cast.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/logger/log_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/logger/log_info.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/logger/pretty_log_format.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/logger/pretty_log_format.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/materializations/insert_by_period_materialization.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/materializations/insert_by_period_materialization.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/schema_tests/cardinality_equality.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/schema_tests/cardinality_equality.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/schema_tests/equality.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/schema_tests/equality.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/schema_tests/recency.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/schema_tests/recency.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/sql/get_tables_by_prefix.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/sql/get_tables_by_prefix.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/sql/get_tables_by_prefix_sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/sql/get_tables_by_prefix_sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/sql/nullcheck_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/sql/nullcheck_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/sql/pivot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/sql/pivot.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/sql/star.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/sql/star.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/sql/surrogate_key.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/sql/surrogate_key.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/sql/union.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/sql/union.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macros/sql/unpivot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/macros/sql/unpivot.sql" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/integration_tests/logs/dbt.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="639">
+              <caret line="12643" column="92" selection-start-line="12643" selection-start-column="64" selection-end-line="12643" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/integration_tests/data/cross_db/data_datediff.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/integration_tests/dbt_project.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dbt_utils.</find>
+      <find>assert_pretty_time_is_string</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>dbt_utils_sqlserver.</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\m.ene\Dropbox\dev\dbt-utils-sqlserver\integration_tests\models</dir>
+      <dir>C:\Users\m.ene\Dropbox\dev\dbt-utils-sqlserver\macros</dir>
+      <dir>C:\Users\m.ene\Dropbox\dev\dbt-utils-sqlserver\integration_tests\tests</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/integration_tests/dbt_project.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="650" />
+    <option name="y" value="81" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dbt-utils-sqlserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbt-utils-sqlserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbt-utils-sqlserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbt-utils-sqlserver" type="462c0819:PsiDirectoryNode" />
+              <item name="integration_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbt-utils-sqlserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbt-utils-sqlserver" type="462c0819:PsiDirectoryNode" />
+              <item name="integration_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbt-utils-sqlserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbt-utils-sqlserver" type="462c0819:PsiDirectoryNode" />
+              <item name="integration_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="cross_db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dbt-utils-sqlserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dbt-utils-sqlserver" type="462c0819:PsiDirectoryNode" />
+              <item name="macros" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66fbd718-e8cb-495c-9494-d44e9bf72769" name="Default Changelist" comment="" />
+      <created>1566207293581</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566207293581</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/integration_tests/data/cross_db/data_dateadd.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration_tests/logs/dbt.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="12643" column="92" selection-start-line="12643" selection-start-column="64" selection-end-line="12643" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration_tests/data/cross_db/data_datediff.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration_tests/dbt_project.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

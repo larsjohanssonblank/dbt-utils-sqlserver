@@ -1,5 +1,5 @@
 {% macro concat(fields) %}
-  {{ adapter_macro('dbt_utils.concat', fields) }}
+  {{ adapter_macro('dbt_utils_sqlserver.concat', fields) }}
 {% endmacro %}
 
 
@@ -14,10 +14,10 @@
 
 
 {% macro redshift__concat(fields) %}
-    {{dbt_utils.alternative_concat(fields)}}
+    {{dbt_utils_sqlserver.alternative_concat(fields)}}
 {% endmacro %}
 
 
 {% macro snowflake__concat(fields) %}
-    {{dbt_utils.alternative_concat(fields)}}
+    {{dbt_utils_sqlserver.alternative_concat(fields)}}
 {% endmacro %}

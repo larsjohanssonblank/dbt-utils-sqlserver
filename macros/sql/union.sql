@@ -16,7 +16,7 @@
 
         {%- set _ = table_columns.update({table: []}) %}
 
-        {%- do dbt_utils._is_relation(table, 'union_tables') -%}
+        {%- do dbt_utils_sqlserver._is_relation(table, 'union_tables') -%}
         {%- set cols = adapter.get_columns_in_relation(table) %}
         {%- for col in cols -%}
 
@@ -52,7 +52,7 @@
         (
             select
 
-                cast({{ dbt_utils.string_literal(table) }} as {{ dbt_utils.type_string() }}) as {{ source_column_name }},
+                cast({{ dbt_utils_sqlserver.string_literal(table) }} as {{ dbt_utils_sqlserver.type_string() }}) as {{ source_column_name }},
 
                 {% for col_name in ordered_column_names -%}
 

@@ -24,9 +24,9 @@ select
     value
 
 from (
-    {{ dbt_utils.unpivot(
+    {{ dbt_utils_sqlserver.unpivot(
         table=ref('data_unpivot'),
-        cast_to=dbt_utils.type_string(),
+        cast_to=dbt_utils_sqlserver.type_string(),
         exclude=exclude
     ) }}
 ) as sbq

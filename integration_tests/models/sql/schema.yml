@@ -53,7 +53,7 @@ models:
           - not_null
       - name: user_id
         tests:
-          - dbt_utils.at_least_one
+          - dbt_utils_sqlserver.at_least_one
           - not_null
           - unique
 
@@ -73,22 +73,22 @@ models:
 
   - name: test_pivot
     tests:
-      - dbt_utils.equality:
+      - dbt_utils_sqlserver.equality:
           compare_model: ref('data_pivot_expected')
 
   - name: test_unpivot_original_api
     tests:
-      - dbt_utils.equality:
+      - dbt_utils_sqlserver.equality:
           compare_model: ref('data_unpivot_original_api_expected')
 
   - name: test_unpivot
     tests:
-      - dbt_utils.equality:
+      - dbt_utils_sqlserver.equality:
           compare_model: ref('data_unpivot_expected')
 
   - name: test_star
     tests:
-      - dbt_utils.equality:
+      - dbt_utils_sqlserver.equality:
           compare_model: ref('data_star_expected')
 
   - name: test_surrogate_key
@@ -99,5 +99,5 @@ models:
 
   - name: test_union
     tests:
-      - dbt_utils.equality:
+      - dbt_utils_sqlserver.equality:
           compare_model: ref('data_union_expected')

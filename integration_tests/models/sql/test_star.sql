@@ -7,7 +7,7 @@
 with data as (
 
     select
-        {{ dbt_utils.star(from=ref('data_star'), except=[exclude_field]) }}
+        {{ dbt_utils_sqlserver.star(from=ref('data_star'), except=[exclude_field]) }}
 
     from {{ ref('data_star') }}
 

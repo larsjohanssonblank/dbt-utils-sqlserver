@@ -7,7 +7,7 @@
 
 with nulled as (
 
-    {{ dbt_utils.nullcheck_table(tbl) }}
+    {{ dbt_utils_sqlserver.nullcheck_table(tbl) }}
 
 )
 
@@ -24,16 +24,16 @@ from nulled
 
 select
 
-    {{ dbt_utils.safe_cast('field_1',
-        dbt_utils.type_string()
+    {{ dbt_utils_sqlserver.safe_cast('field_1',
+        dbt_utils_sqlserver.type_string()
     )}} as field_1,
 
-    {{ dbt_utils.safe_cast('field_2',
-        dbt_utils.type_string()
+    {{ dbt_utils_sqlserver.safe_cast('field_2',
+        dbt_utils_sqlserver.type_string()
     )}} as field_2,
 
-    {{ dbt_utils.safe_cast('field_3',
-        dbt_utils.type_string()
+    {{ dbt_utils_sqlserver.safe_cast('field_3',
+        dbt_utils_sqlserver.type_string()
     )}} as field_3
 
 from nulled

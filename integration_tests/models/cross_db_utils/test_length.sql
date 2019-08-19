@@ -6,7 +6,7 @@ with data as (
 
 select
 
-    {{ dbt_utils.length('expression') }} as actual,
+    {{ dbt_utils_sqlserver.length('expression') }} as actual,
     output as expected
 
 from data
