@@ -32,7 +32,7 @@
     (current_timestamp at time zone 'utc')::{{dbt_utils_sqlserver.type_timestamp()}}
 {% endmacro %}
 
-{% macro postgres__current_timestamp_in_utc() %}
+{% macro sqlserver__current_timestamp_in_utc() %}
     getutcdate()
 {% endmacro %}
 	
