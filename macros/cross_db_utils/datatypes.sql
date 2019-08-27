@@ -39,6 +39,9 @@
     timestamp_ntz
 {% endmacro %}
 
+{% macro sqlserver__type_timestamp() %}
+    datetime
+{% endmacro %}
 
 {# float  -------------------------------------------------     #}
 
